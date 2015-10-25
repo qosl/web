@@ -1,7 +1,7 @@
 body {
 	margin: auto;
 	padding: 0px;
-	max-width: 1333px;
+	max-width: 1433px;
 	font-family: Arial, serif ;
 	text-align: justify;
 	border-style: solid;
@@ -11,6 +11,7 @@ body {
 
 #block_0 {
 	font-size: 50px;
+	font-family: arial;
 	width: auto;
 	height: auto;
 	text-align: center;
@@ -51,7 +52,6 @@ body {
 	text-decoration: none;
 	display: inline-block;
 	width: 100px;
-
 }
 
 #block_1 a:hover {
@@ -59,27 +59,114 @@ body {
 }
 
 #clearfix {
-	overflow: auto;
+	overflow: hidden;
 }
 
 #block_2 {
+	position: relative;
 	padding: 0px;
-	background: lightcyan;
-	margin-right: 200px;
-	height: 1000px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	background: white;
+	margin-right: 139px;
+	height: 1100px;
+	border: 1px solid black;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+#block_2_1 {
+	width: 400px;
+	height: 250px;
+	border: 1px solid black;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+#block_2_2 {
+	position: absolute;
+	right: 0px;
+	top: 250px;
+	width: 400px;
+	height: 250px;
+	margin: 0;
+	border: 1px solid black;
+	padding: 0;
+	overflow: auto;
+}
+
+#block_2_3 {
+	position: absolute;
+	right: 0px;
+	top: 500px;
+	width: 400px;
+	height: 250px;
+	margin: 0;
+	border: 1px solid black;
+	padding: 0;
+	overflow: auto;
+}
+
+#block_2_4 {
+	position: absolute;
+	right: 0px;
+	top: 750px;
+	width: 400px;
+	height: 250px;
+	margin: 0;
+	border: 1px solid black;
+	padding: 0;
+	overflow: auto;
+
+}
+
+#block_2_5 {
+	position: absolute;
+	left: 400px;
+	top: 0px;
+	width: 490px;
+	height: 1000px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid red;
+	padding: 0;
+	overflow: auto;
+		-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+	width: 485px;
+	height: 485px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+#block_2_6 {
+	position: absolute;
+	left: 0px;
+	top: 1000px;
+	width: auto;
+	height: 100px;
+	margin: 0;
+	border: 1px solid black;
+	padding: 0;
+	overflow: auto;
+}
+
+
 #block_3 {
 	padding: 10px;
 	float: right;
-	width: 200px;
-	height: 1000px;
+	width: 140px;
+	height: 1100px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
