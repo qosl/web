@@ -28,6 +28,9 @@ body {
 	border-width: 2px;
 	border-color: black;
 	background-color: lightcyan;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #block_1 ul {
@@ -60,6 +63,9 @@ body {
 
 #clearfix {
 	overflow: hidden;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #block_2 {
@@ -68,7 +74,7 @@ body {
 	background: white;
 	margin-right: 139px;
 	height: 1100px;
-	border: 1px solid black;
+	border: 1px solid blue;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -84,6 +90,9 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #block_2_2 {
@@ -96,6 +105,9 @@ body {
 	border: 1px solid black;
 	padding: 0;
 	overflow: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #block_2_3 {
@@ -108,6 +120,9 @@ body {
 	border: 1px solid black;
 	padding: 0;
 	overflow: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #block_2_4 {
@@ -120,25 +135,28 @@ body {
 	border: 1px solid black;
 	padding: 0;
 	overflow: auto;
-
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #block_2_5 {
 	position: absolute;
 	left: 400px;
 	top: 0px;
-	width: 490px;
+	width: 492px;
 	height: 1000px;
 	margin: 0px;
 	padding: 0px;
 	border: 1px solid red;
 	padding: 0;
 	overflow: auto;
-		-webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+/*make map image smaller*/
 .container {
 	width: 485px;
 	height: 485px;
@@ -152,6 +170,39 @@ body {
 #block_2_6 {
 	position: absolute;
 	left: 0px;
+	top: 0px;
+	width: 400px;
+	height: 500px;
+	margin: 0;
+	border: 1px solid black;
+	padding: 0;
+	overflow: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#block_2_7 {
+	position: absolute;
+	left: 0px;
+	top: 500px;
+	width: 400px;
+	height: 500px;
+	margin: 0;
+	border: 1px solid black;
+	padding: 0;
+	overflow: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#block_2_8 {
+	position: absolute;
+	left: 0px;
 	top: 1000px;
 	width: auto;
 	height: 100px;
@@ -159,8 +210,23 @@ body {
 	border: 1px solid black;
 	padding: 0;
 	overflow: auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+#footer{
+	text-transform: uppercase;
+	width: auto;
+	height: 60px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	background-color: lightcyan;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 #block_3 {
 	padding: 10px;
