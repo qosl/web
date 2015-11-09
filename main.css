@@ -1,12 +1,10 @@
 body {
 	margin: auto;
 	padding: 0px;
-	max-width: 1433px;
+	max-width: 1493px;
 	font-family: Arial, serif ;
 	text-align: justify;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	border: 1px solid black;
 }
 
 #block_0 {
@@ -72,8 +70,8 @@ body {
 	position: relative;
 	padding: 0px;
 	background: white;
-	margin-right: 139px;
-	height: 1100px;
+	margin-right: 199px;
+	height: 1800px;
 	border: 1px solid blue;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -82,7 +80,7 @@ body {
 
 #block_2_1 {
 	width: 400px;
-	height: 250px;
+	height: 300px;
 	border: 1px solid black;
 	position: absolute;
 	right: 0px;
@@ -96,14 +94,13 @@ body {
 }
 
 #block_2_2 {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
 	position: absolute;
 	right: 0px;
-	top: 250px;
-	width: 400px;
-	height: 250px;
-	margin: 0;
-	border: 1px solid black;
-	padding: 0;
+	top: 300px;
+	padding: 10px;
 	overflow: auto;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -111,14 +108,13 @@ body {
 }
 
 #block_2_3 {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
 	position: absolute;
 	right: 0px;
-	top: 500px;
-	width: 400px;
-	height: 250px;
-	margin: 0;
-	border: 1px solid black;
-	padding: 0;
+	top: 700px;
+	padding: 10px;
 	overflow: auto;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -128,12 +124,12 @@ body {
 #block_2_4 {
 	position: absolute;
 	right: 0px;
-	top: 750px;
+	top: 1100px;
 	width: 400px;
-	height: 250px;
+	height: 400px;
 	margin: 0;
 	border: 1px solid black;
-	padding: 0;
+	padding: 10px;
 	overflow: auto;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -145,7 +141,7 @@ body {
 	left: 400px;
 	top: 0px;
 	width: 492px;
-	height: 1000px;
+	height: 1500px;
 	margin: 0px;
 	padding: 0px;
 	border: 1px solid red;
@@ -172,7 +168,7 @@ body {
 	left: 0px;
 	top: 0px;
 	width: 400px;
-	height: 500px;
+	height: 750px;
 	margin: 0;
 	border: 1px solid black;
 	padding: 0;
@@ -185,12 +181,12 @@ body {
 #block_2_7 {
 	position: absolute;
 	left: 0px;
-	top: 500px;
+	top: 750px;
 	width: 400px;
-	height: 500px;
+	height: 750px;
 	margin: 0;
 	border: 1px solid black;
-	padding: 0;
+	padding: 10px;
 	overflow: auto;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -203,12 +199,12 @@ body {
 #block_2_8 {
 	position: absolute;
 	left: 0px;
-	top: 1000px;
-	width: auto;
-	height: 100px;
+	top: 1500px;
+	width: 1293px;
+	height: 300px;
 	margin: 0;
-	border: 1px solid black;
-	padding: 0;
+	border: 2px solid black;
+	padding: 10px;
 	overflow: auto;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -229,10 +225,10 @@ body {
 }
 
 #block_3 {
-	padding: 10px;
+	padding: 5px;
 	float: right;
-	width: 140px;
-	height: 1100px;
+	width: 200px;
+	height: 1800px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -240,4 +236,22 @@ body {
 	-webkit-box-sizing: border-box;
     moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+#block_3 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 40px; /*vertical text-align*/
+}
+
+#block_3 li {
+	background-color: lightyellow;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#block_3 a {
+	display: block;
 }
